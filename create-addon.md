@@ -53,7 +53,7 @@ module.exports = function(defaults) {
 ```
 //  addon/styles/app.scss
 @import "bootstrap";
-//  or
+//  or(NOT WORK)
 //  app/styles/app.scss
 @import "ember-bootstrap/bootstrap";
 ```
