@@ -22,7 +22,8 @@
 ```
 9. `$ yarn install`
 10. `$ ember s`
-11. if terminal show ![newaddon12.jpg](https://i.loli.net/2018/08/20/5b7a4bfa7aee8.jpg)  
+11. if terminal show  
+![newaddon12.jpg](https://i.loli.net/2018/08/20/5b7a4bfa7aee8.jpg)  
 should change `ember-cli-build.js` file like this:
 ```
 'use strict';
@@ -52,8 +53,8 @@ module.exports = function(defaults) {
 ```
 //  addon/styles/app.scss
 @import "bootstrap";
-//  or
+//  or(NOT WORK)
 //  app/styles/app.scss
 @import "ember-bootstrap/bootstrap";
 ```
-that's mean the file direction should right.
+that's mean the file path should right.
